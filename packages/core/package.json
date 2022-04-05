@@ -1,0 +1,27 @@
+{
+  "name": "@professor-duan/core",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "duanyang <duanyang.dysjc@bytedance.com>",
+  "homepage": "",
+  "license": "MIT",
+  "main": "src/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://registry.npm.taobao.org/"
+  },
+  "scripts": {
+    "test": "echo \"run core\""
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "testdy": "^1.0.0",
+    "@professor-duan/utils": "^1.0.0"
+  }
+}
